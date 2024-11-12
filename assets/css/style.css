@@ -107,6 +107,18 @@ body {
   justify-content: center;
   padding: 10px;
 }
+
+/* Footer styling */
+footer {
+  background-color: grey;
+  font-size: small;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
 /* Media queries */
 /* For medium devices (768px and up; tablets) */
 
