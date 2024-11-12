@@ -66,10 +66,15 @@ p,
 /* About and Services Cards */
 .card-body {
   background-color: #77a0a9;
+  height: auto;
 }
 
 .card-body:hover {
   background-color: #56818a;
+}
+
+.col-md-4 {
+  margin-bottom: 20px;
 }
 
 #services .card-body {
@@ -97,11 +102,39 @@ footer {
 
 /* Media Queries */
 @media (min-width: 768px) {
+  /* Services Cards */
   #services .card {
+    display: flex;
+    flex-direction: column;
     height: 100%;
   }
+
   #services .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex-grow: 1;
+  }
+
+  #services .card-body .btn-primary {
+    margin-top: auto;
+  }
+
+  #about .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  #about .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  #about .card-body .btn-primary {
+    margin-top: auto;
   }
 }
 
