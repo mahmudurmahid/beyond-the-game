@@ -61,13 +61,13 @@ p {
 }
 
 /* About styling */
-/* Grayscale effect for card images */
+/* Apply grayscale filter to images initially */
 .card img {
-  filter: grayscale(0%);
+  filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
 
-/* Class to add color when in view */
-.card img.in-view {
-  filter: grayscale(100%);
+/* Remove grayscale on hover */
+.card:hover img {
+  filter: grayscale(0%);
 }
