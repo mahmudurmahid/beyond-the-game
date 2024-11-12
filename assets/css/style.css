@@ -25,13 +25,13 @@ body {
 }
 
 .btn-primary {
-  background-color: black;
+  background-color: #3a75ff;
   color: white;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: white;
+  background-color: #2dfc7d;
   color: black;
   border: none;
 }
@@ -68,6 +68,11 @@ body {
 }
 
 /* About styling */
+.card-body {
+  background-color: #77a0a9;
+  color: black;
+}
+
 /* Apply grayscale filter to images initially */
 .card img {
   filter: grayscale(100%);
