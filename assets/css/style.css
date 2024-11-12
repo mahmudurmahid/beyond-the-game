@@ -22,6 +22,7 @@ p,
 .btn-primary {
   background-color: #f2f4cb;
   color: black;
+  border: none;
 }
 
 .btn-primary:hover {
@@ -42,10 +43,24 @@ p,
   padding-top: 5%;
 }
 
+/* typewriter effect */
 .typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
   border-right: 3px solid;
-  animation: typing 6s steps(30, end) forwards;
+  width: 100%; /* Control typing width */
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
   color: gold;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* About and Services Cards */
@@ -92,14 +107,5 @@ footer {
   }
   #hero .btn-primary {
     font-size: 1.25rem;
-  }
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
   }
 }
