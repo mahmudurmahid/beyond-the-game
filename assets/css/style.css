@@ -161,3 +161,28 @@ footer a {
 /* For large devices (992px and up; desktops) */
 
 /* For extra large devices (1200px and up; large desktops) */
+@media (min-width: 1024px) {
+  #hero {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  #hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  #hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  #hero .btn-primary {
+    font-size: 1.25rem;
+    padding: 0.75rem 2rem;
+  }
+}
