@@ -100,6 +100,11 @@ body {
   color: white;
 }
 
+.card-body:hover {
+  background-color: #56818A;
+  color: white;
+}
+
 /* Apply grayscale filter to images initially */
 .card img {
   filter: grayscale(100%);
@@ -123,6 +128,11 @@ body {
   color: white;
 }
 
+#services .card-body:hover {
+  background-color: #8CBA8F;
+  color: white;
+}
+
 #services .col-md-6 {
   display: flex;
   justify-content: center;
@@ -143,27 +153,34 @@ footer a {
 /* Media queries */
 /* For medium devices (768px and up; tablets) */
 @media (min-width: 768px) {
-  /* Ensure all cards are the same height */
-  #about .card, #services .card {
+  /* Make each service card have the same height */
+  #services .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 100%;
   }
 
-    /* Align card body and button at the bottom */
-    #about .card-body, #services .card-body   {
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+  /* Ensure the card-body fills available space and aligns text consistently */
+  #services .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+
+  /* Add some top margin to buttons so they align at the bottom - used co-pilot and chatGPT heavily for this part*/
+  #services .card-body .btn-primary {
+    margin-top: auto;
+  }
+}
+
     }
 /* For large devices (992px and up; desktops) */
 
 /* For extra large devices (1200px and up; large desktops) */
 @media (min-width: 1024px) {
   #hero {
-    height: 60vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
