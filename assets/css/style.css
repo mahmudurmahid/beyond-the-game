@@ -16,6 +16,7 @@ h2,
 h3,
 h4,
 p {
+  color: white;
   font-family: "Sans-Serif", sans-serif;
 }
 
@@ -48,7 +49,7 @@ body {
   height: 40vh; /* Adjust the height as needed */
   background-size: cover;
   padding-top: 5%;
-  color: white;
+  color: #223127;
 }
 .typewriter {
   display: inline-block;
@@ -70,7 +71,7 @@ body {
 /* About styling */
 .card-body {
   background-color: #77a0a9;
-  color: white;
+  color: 223127;
 }
 
 /* Apply grayscale filter to images initially */
