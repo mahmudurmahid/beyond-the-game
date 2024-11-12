@@ -68,8 +68,16 @@ p,
   background-color: #77a0a9;
 }
 
+.card-body:hover {
+  background-color: #56818a;
+}
+
 #services .card-body {
   background-color: #b3d1b5;
+}
+
+#services .card-body:hover {
+  background-color: #8cba8f;
 }
 
 .card img {
