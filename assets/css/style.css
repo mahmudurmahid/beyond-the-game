@@ -24,6 +24,18 @@ body {
   color: white;
 }
 
+.btn-primary {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
 /* Navbar styling */
 #navbar {
   background-color: black;
@@ -55,18 +67,6 @@ body {
   }
 }
 
-.btn-primary {
-  background-color: black;
-  color: white;
-  border: none;
-}
-
-.btn-primary:hover {
-  background-color: white;
-  color: black;
-  border: none;
-}
-
 /* About styling */
 /* Apply grayscale filter to images initially */
 .card img {
@@ -77,6 +77,12 @@ body {
 /* Remove grayscale on hover */
 .card:hover img {
   filter: grayscale(0%);
+}
+
+#about .col-md-4 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 /* Media queries */
