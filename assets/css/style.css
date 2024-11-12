@@ -19,6 +19,11 @@ p {
   font-family: "Sans-Serif", sans-serif;
 }
 
+body {
+  background-color: black;
+  color: white;
+}
+
 /* Navbar styling */
 #navbar {
   background-color: black;
@@ -27,8 +32,10 @@ p {
 
 /* Header styling */
 #hero {
-  background: url("../images/hero.webp") center center no-repeat;
+  background: url("../images/hero.webp") center top no-repeat;
+  height: 40vh; /* Adjust the height as needed */
   background-size: cover;
+  padding-top: 5%;
   color: white;
 }
 .typewriter {
@@ -71,3 +78,10 @@ p {
 .card:hover img {
   filter: grayscale(0%);
 }
+
+/* Media queries */
+/* For medium devices (768px and up; tablets) */
+
+/* For large devices (992px and up; desktops) */
+
+/* For extra large devices (1200px and up; large desktops) */
