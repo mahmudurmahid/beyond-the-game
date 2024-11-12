@@ -96,6 +96,17 @@ body {
   padding: 10px;
 }
 
+/* Services styling */
+#services .card-body {
+  background-color: #b3d1b5;
+  color: white;
+}
+
+#services .col-md-6 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
 /* Media queries */
 /* For medium devices (768px and up; tablets) */
 
