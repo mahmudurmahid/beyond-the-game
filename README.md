@@ -1,7 +1,7 @@
-Beyond The Game
+**Beyond The Game**
 A mental health awareness website designed for former professional or high-level athletes, providing accessible resources, articles, and support.
 
-Table of Contents
+**Table of Contents**
 Live Site Link
 Introduction
 Project Outline
@@ -24,16 +24,18 @@ Additional Tools
 Deployment
 Testing
 Credits
-Live Site Link
+
+
+**Live Site Link**
 View Beyond The Game: https://mahmudurmahid.github.io/individual-formative-assessment/
 
-Introduction
+**Introduction**
 Beyond The Game is my first assessed portfolio project, developed as part of the Code Institute Full Stack Software Development for the AI Augmented Developer Bootcamp. This project leverages HTML5, CSS3, Bootstrap 5.3, and a variety of AI tools, such as DALL-E 3, to create a website focusing on mental health awareness for former athletes.
 
-Project Outline
+**Project Outline**
 Beyond The Game is a fictional organization aimed at spreading mental health awareness among former professional or high-level athletes. The website provides information on common mental health issues and links to external resources. The design focuses on being supportive, organized, mobile-friendly, and responsive.
 
-User Experience (UX)
+**User Experience (UX)**
 User Stories
 As a former professional athlete, I want to easily navigate the website to find information on mental health quickly.
 I want beginner-friendly articles on mental health to understand common issues and management techniques.
@@ -41,6 +43,7 @@ I need access to resources and tips on managing stress to improve my mental well
 I want the website to be mobile-accessible for on-the-go access.
 I want a calming and supportive design to feel comfortable while browsing.
 I need athlete-specific information for relevant resources and support.
+
 Design
 Colors
 Main Palette:
@@ -54,6 +57,7 @@ Teal (#77a0a9) - About section card background
 Dark Teal (#56818a) - About section card hover background
 Light Green (#b3d1b5) - Services section card background
 Medium Green (#8cba8f) - Services section card hover background
+
 Wireframes
 Wireframes were created to outline the layout and structure of the website, using Bootstrap v5.3 for component organization.
 
@@ -64,11 +68,12 @@ Themes: Ex-athletes in relatable settings (e.g., locker rooms).
 Contextual Relevance: Each image connects to the card topic (e.g., support groups).
 Inclusivity: Includes people from various genders, ethnicities, and backgrounds.
 Consistency: Images align with the color scheme.
-Images were created using DALL-E 3 with prompts like:
 
+Images were created using DALL-E 3 with prompts like:
 “Create an image of a single athlete contemplating their mental health.”
 “Create an image of ex-athletes in a classroom learning how to code.”
-Website Features
+
+**Website Features**
 Navigation and Hero
 Responsive Navbar:
 Navbar brand: "Beyond The Game."
@@ -93,6 +98,7 @@ Grid Layout: Bootstrap grid for adaptable layouts.
 Responsive Typography & Images: Adjusts for readability and clarity across devices.
 Hero Section Adaptation: Adjusts layout based on screen size.
 Stacked Social Media Icons on Mobile: Horizontal on desktop, vertically stacked on mobile.
+
 Technologies Used
 Languages
 HTML: Website structure.
@@ -105,7 +111,8 @@ Additional Tools
 CDN: Bootstrap, Google Fonts, and Font Awesome.
 Custom CSS: Styles for color schemes, button effects, and animations.
 IDE: Visual Studio Code for HTML, CSS, and JavaScript coding.
-Deployment
+
+**Deployment**
 This project was created using a GitHub repository with the Code Institute Template.
 
 Deployment Steps:
@@ -113,12 +120,13 @@ Go to the repository on GitHub.
 Navigate to Settings > Pages.
 In the "Source" section, select the branch and root directory to deploy, typically main or master, and set the folder (often root for basic projects).
 
-Testing
+**Testing**
 Testing was conducted using Chrome Developer Tools throughout development, with validation at the end.
 
 HTML Validation: Checked for errors and accessibility.
 CSS Validation: Ensured consistency and adherence to best practices.
-Credits
+
+**Credits**
 Typewriter Effect: CSS Tricks. - https://css-tricks.com/snippets/css/typewriter-effect/
 Greyscale Effect: YouTube - https://www.youtube.com/watch?v=U_LLvPHHMTw
 Bootstrap Carousel: WebNots and ChatGPT.
