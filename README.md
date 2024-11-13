@@ -1,131 +1,130 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Beyond The Game
+A mental health awareness website designed for former professional or high-level athletes, providing accessible resources, articles, and support.
 
-Welcome Mahmudur Mahid,
+Table of Contents
+Live Site Link
+Introduction
+Project Outline
+User Experience (UX)
+User Stories
+Design
+Colors
+Wireframes
+Imagery
+Website Features
+Navigation and Hero
+About Section
+Services Section
+Footer
+Responsive Design
+Technologies Used
+Languages
+Frameworks and Libraries
+Additional Tools
+Deployment
+Testing
+Credits
+Live Site Link
+View Beyond The Game
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Introduction
+Beyond The Game is my first assessed portfolio project, developed as part of the Code Institute Full Stack Software Development for the AI Augmented Developer Bootcamp. This project leverages HTML5, CSS3, Bootstrap 5.3, and a variety of AI tools, such as DALL-E 3, to create a website focusing on mental health awareness for former athletes.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+Project Outline
+Beyond The Game is a fictional organization aimed at spreading mental health awareness among former professional or high-level athletes. The website provides information on common mental health issues and links to external resources. The design focuses on being supportive, organized, mobile-friendly, and responsive.
 
-## Gitpod Reminders
+User Experience (UX)
+User Stories
+As a former professional athlete, I want to easily navigate the website to find information on mental health quickly.
+I want beginner-friendly articles on mental health to understand common issues and management techniques.
+I need access to resources and tips on managing stress to improve my mental well-being.
+I want the website to be mobile-accessible for on-the-go access.
+I want a calming and supportive design to feel comfortable while browsing.
+I need athlete-specific information for relevant resources and support.
+Design
+Colors
+Main Palette:
+Black (#000000) - Background color
+White (#FFFFFF) - Text color
+Gold (#FFD700) - Accent color
+Light Yellow/Cream (#f2f4cb) - Primary button background
+Dark Green (#223127) - Button hover color
+Grey (#808080) - Navbar and footer background
+Teal (#77a0a9) - About section card background
+Dark Teal (#56818a) - About section card hover background
+Light Green (#b3d1b5) - Services section card background
+Medium Green (#8cba8f) - Services section card hover background
+Wireframes
+Wireframes were created to outline the layout and structure of the website, using Bootstrap v5.3 for component organization.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Imagery
+Images were selected to support a theme of relatability, inclusivity, and relevance to the athletic community:
 
-`python3 -m http.server`
+Themes: Ex-athletes in relatable settings (e.g., locker rooms).
+Contextual Relevance: Each image connects to the card topic (e.g., support groups).
+Inclusivity: Includes people from various genders, ethnicities, and backgrounds.
+Consistency: Images align with the color scheme.
+Images were created using DALL-E 3 with prompts like:
 
-A blue button should appear to click: _Make Public_,
+“Create an image of a single athlete contemplating their mental health.”
+“Create an image of ex-athletes in a classroom learning how to code.”
+Website Features
+Navigation and Hero
+Responsive Navbar:
+Navbar brand: "Beyond The Game."
+Links to "Home," "About," and "Services."
+Collapsible mobile menu (hamburger icon).
+Hero Section:
+Title: “Beyond The Game” with a typewriter effect.
+Text Carousel: Rotating text messages via Bootstrap carousel.
+CTA Button: "View Services" links to Services section.
+About Section
+Card Components:
+Three cards with images, titles (e.g., "Understanding Anxiety"), text descriptions, and "Find Out More" buttons.
+Services Section
+Service Cards:
+Four cards describing services (e.g., "Individual Therapy") with a title, text, "Get Started" button, and image.
+Footer
+Text: "© 2024 Beyond The Game. All rights reserved."
+Social Media Icons: Links to Facebook, Twitter, and Instagram.
+Responsive Design
+Adjustable Navbar: Horizontal links for larger screens, collapses to mobile-friendly format.
+Grid Layout: Bootstrap grid for adaptable layouts.
+Responsive Typography & Images: Adjusts for readability and clarity across devices.
+Hero Section Adaptation: Adjusts layout based on screen size.
+Stacked Social Media Icons on Mobile: Horizontal on desktop, vertically stacked on mobile.
+Technologies Used
+Languages
+HTML: Website structure.
+CSS: Styles and responsive design.
+Frameworks and Libraries
+Bootstrap 5: Responsive grid, navbar, cards, and buttons.
+Font Awesome: Social media icons.
+Google Fonts: "Handlee" font for a calming effect.
+Additional Tools
+CDN: Bootstrap, Google Fonts, and Font Awesome.
+Custom CSS: Styles for color schemes, button effects, and animations.
+IDE: Visual Studio Code for HTML, CSS, and JavaScript coding.
+Deployment
+This project was created using a GitHub repository with the Code Institute Template.
 
-Another blue button should appear to click: _Open Browser_.
+Deployment Steps:
+Log into your GitHub profile.
+Navigate to the Code Institute Full Template.
+Click 'Use this template' and select "Create a new repository."
+Name and describe the repo, then click 'Create repository from template.'
+Open the repo in Gitpod using the green 'Open' button with the Gitpod logo.
+Work within the Code Institute Gitpod IDE workspace.
+Testing
+Testing was conducted using Chrome Developer Tools throughout development, with validation at the end.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+HTML Validation: Checked for errors and accessibility.
+CSS Validation: Ensured consistency and adherence to best practices.
+Credits
+Typewriter Effect: CSS Tricks. - https://css-tricks.com/snippets/css/typewriter-effect/
+Greyscale Effect: YouTube - https://www.youtube.com/watch?v=U_LLvPHHMTw
+Bootstrap Carousel: WebNots and ChatGPT.
+Flexbox Guide: CSS Tricks. - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Images: DALL-E 3 - OpenAI.
+Documentation: Code Institute Full Stack Development for AI.
+Code References: Microsoft Co-Pilot.
