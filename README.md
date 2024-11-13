@@ -25,6 +25,7 @@ A mental health awareness website designed for former professional or high-level
   - [Additional Tools](#additional-tools)
 - [Deployment](#deployment)
 - [Testing](#testing)
+- [Bugs](#bugs)
 - [Credits](#credits)
 
 ## Live Site Link
@@ -156,6 +157,9 @@ Testing was conducted using Chrome Developer Tools throughout development, with 
 - **HTML Validation:** Checked for errors and accessibility.
 - **CSS Validation:** Ensured consistency and adherence to best practices.
 - **Lighthouse:** Checked for performance, accessibility, best practices, and SEO scores.
+
+## Bugs
+My lighthouse performance score was 70%. I will change image sizes, and reduce unused CSS to improve the score in the future. Due to a lack of time, this will be a future change and is a "bug" for now. There are other diagnostic errors like "minimize thread work" but I do not understand these for the time being and do not have time to research to change.
 
 ## Credits
 
