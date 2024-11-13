@@ -145,11 +145,14 @@ Images were created using DALL-E 3 with prompts like:
 
 This project was created using a GitHub repository with the Code Institute Template.
 
+
 ### Deployment Steps
 
 - 1. Go to the repository on GitHub.
   2. Navigate to **Settings** > **Pages**.
   3. ![A screenshot of a computer
+![github branch deployment 1](https://github.com/user-attachments/assets/6b686dff-3218-47d3-bf40-406bacf0910a)
+![github branch deployment 2](https://github.com/user-attachments/assets/c0f3e9ce-ea49-4f84-bdab-b97ef1bb46a9)
 
 ## Testing
 
@@ -158,6 +161,8 @@ Testing was conducted using Chrome Developer Tools throughout development, with 
 - **HTML Validation:** Checked for errors and accessibility.
 - **CSS Validation:** Ensured consistency and adherence to best practices.
 - **Lighthouse:** Checked for performance, accessibility, best practices, and SEO scores.
+![Screenshot 2024-11-13 at 13 30 58](https://github.com/user-attachments/assets/9a004709-9b87-4821-ba25-eb42d07d1080)
+![html validation](https://github.com/user-attachments/assets/c3d42d03-d012-4de8-beab-e806fdd9e59c)
 
 ## Bugs
 My lighthouse performance score was 70%. I will change image sizes, and reduce unused CSS to improve the score in the future. Due to a lack of time, this will be a future change and is a "bug" for now. There are other diagnostic errors like "minimize thread work" but I do not understand these for the time being and do not have time to research to change.
