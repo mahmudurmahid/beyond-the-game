@@ -26,6 +26,7 @@ A mental health awareness website designed for former professional or high-level
 - [Deployment](#deployment)
 - [Testing](#testing)
 - [Bugs](#bugs)
+- - [Future Adds](#future-adds)
 - [Credits](#credits)
 
 ## Live Site Link
@@ -160,6 +161,11 @@ Testing was conducted using Chrome Developer Tools throughout development, with 
 
 ## Bugs
 My lighthouse performance score was 70%. I will change image sizes, and reduce unused CSS to improve the score in the future. Due to a lack of time, this will be a future change and is a "bug" for now. There are other diagnostic errors like "minimize thread work" but I do not understand these for the time being and do not have time to research to change.
+
+## Future Adds
+I will add photos to this readme document as there was an issue doing so today. Other additions include:
+- Articles to link to about section cards
+- Links to relevant external services (left due to ethical implications of not researching and adding sites that will help target audience)
 
 ## Credits
 
