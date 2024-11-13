@@ -32,7 +32,12 @@ p,
 
 /* Navbar */
 #navbar {
-  background-color: black;
+  background-color: grey;
+}
+
+.navbar-toggler {
+  color: white;
+  border-color: white;
 }
 
 /* Header */
