@@ -105,11 +105,12 @@ h2 {
 /* Footer */
 footer {
   background-color: grey;
-  font-size: small;
+  font-size: medium;
 }
 
 footer a {
   color: white;
+  padding: 10px;
 }
 
 /* Media Queries */
