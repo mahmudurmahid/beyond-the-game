@@ -170,7 +170,7 @@ I will add photos to this readme document as there was an issue doing so today. 
 ## Credits
 
 - **Typewriter Effect:** CSS Tricks.
-- **Greyscale Effect:** YouTube.
+- **Greyscale Effect:** YouTube. [https://www.youtube.com/watch?v=U_LLvPHHMTw]
 - **Bootstrap Carousel:** WebNots and ChatGPT.
 - **Flexbox Guide:** CSS Tricks.
 - **Images:** DALL-E 3 - OpenAI.
