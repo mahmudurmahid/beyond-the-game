@@ -25,7 +25,7 @@ Deployment
 Testing
 Credits
 Live Site Link
-View Beyond The Game
+View Beyond The Game: https://mahmudurmahid.github.io/individual-formative-assessment/
 
 Introduction
 Beyond The Game is my first assessed portfolio project, developed as part of the Code Institute Full Stack Software Development for the AI Augmented Developer Bootcamp. This project leverages HTML5, CSS3, Bootstrap 5.3, and a variety of AI tools, such as DALL-E 3, to create a website focusing on mental health awareness for former athletes.
@@ -109,12 +109,10 @@ Deployment
 This project was created using a GitHub repository with the Code Institute Template.
 
 Deployment Steps:
-Log into your GitHub profile.
-Navigate to the Code Institute Full Template.
-Click 'Use this template' and select "Create a new repository."
-Name and describe the repo, then click 'Create repository from template.'
-Open the repo in Gitpod using the green 'Open' button with the Gitpod logo.
-Work within the Code Institute Gitpod IDE workspace.
+Go to the repository on GitHub.
+Navigate to Settings > Pages.
+In the "Source" section, select the branch and root directory to deploy, typically main or master, and set the folder (often root for basic projects).
+
 Testing
 Testing was conducted using Chrome Developer Tools throughout development, with validation at the end.
 
